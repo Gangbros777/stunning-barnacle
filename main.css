@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 118px;
+    padding-bottom: 76px;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 58px;
+}
+.header__link{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-shadow: 0px 7px 4px  rgba(55, 26, 171, 0.6);
+    text-decoration: none;
+}
+.hero{
+    padding-bottom: 118px;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+.hero__childs{
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(47, 198, 60);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs2{
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(47, 52, 198);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs3{
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(198, 47, 47);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs4{
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(47, 155, 198);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs5 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(198, 47, 173);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs6 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(198, 193, 47);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs7 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(198, 47, 87);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs9 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(198, 47, 75);
+    background-color: rgb(255, 255, 255);
+}
+.hero__childs8 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px rgb(49, 47, 198);
+    background-color: rgb(255, 255, 255);
+}
+.hero__wrapper{
+    display: flex;
+    align-items: start;
+}
+.hero__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.hero__childs{
+    gap: 10px;
+    margin-left: 77px;
+    margin-bottom: 42px;
+}
